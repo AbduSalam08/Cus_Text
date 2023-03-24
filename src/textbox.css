@@ -1,0 +1,68 @@
+.wrap {
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.05);
+}
+.wrap .inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.header h5 {
+  color: #555;
+}
+.copy-icon {
+  padding: 1px 13px;
+  font-size: 22px;
+  border-radius: 3px;
+  background-color: #55555515;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.copy-icon:hover {
+  background-color: #3693fd20;
+  color: #003d88;
+}
+.inputs .field {
+  border: 1px solid #adadad90;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  min-height: 200px;
+}
+.field::placeholder {
+  color: #55555590;
+  padding-left: 5px;
+}
+.btnSection {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.atBtn {
+  font-size: 13px;
+  padding: 8px;
+  width: 70px;
+  margin: 5px;
+  border: none;
+  border-radius: 3px;
+  background-color: #55555515;
+  color: #404040;
+  font-weight: bold;
+}
+.atBtn:hover {
+  background-color: #3693fd20;
+  color: #003d88;
+}
